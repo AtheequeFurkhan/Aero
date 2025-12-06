@@ -1,0 +1,52 @@
+name: Daily Weather Update
+
+on:
+  schedule:
+    - cron: '0 */1 * * *' # Run every 1 hours
+  workflow_dispatch:      # Allow manual run
+
+permissions:
+  contents: write
+
+jobs:
+  update-weather:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Fetch Weather Data
+        env:
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+        run: python scripts/fetch_weather.py
+
+      - name: Generate Charts
+        run: python scripts/generate_chart.py
+
+      - name: Build Website (Dashboard)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/build_site.py
+
+      - name: Update README
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/update_readme.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "WeatherBot"
+          git config --global user.email "bot@github.com"
+          git add .
+          git commit -m "🌦️ Weather update: $(date +'%Y-%m-%d %H:%M')" || exit 0
+          git push
