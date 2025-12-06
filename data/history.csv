@@ -1,0 +1,5 @@
+date,timestamp,city,temp,humidity,wind_speed,condition,description,icon
+2025-12-06,2025-12-06 19:09:50,New York,5.48,63,5.14,Clouds,overcast clouds,04d
+2025-12-06,2025-12-06 19:09:50,London,10.62,84,6.17,Clouds,broken clouds,04n
+2025-12-06,2025-12-06 19:09:50,Tokyo,6.19,56,2.57,Clear,clear sky,01n
+2025-12-06,2025-12-06 19:09:50,Sydney,22.88,60,11.83,Clear,clear sky,01d

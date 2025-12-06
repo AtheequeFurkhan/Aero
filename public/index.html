@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white font-sans p-6">
+    <div class="max-w-6xl mx-auto">
+        <header class="mb-8 text-center">
+            <h1 class="text-4xl font-bold mb-2">🌍 Global Weather Dashboard</h1>
+            <p class="text-slate-400">Last Updated: 2025-12-06 19:09:50</p>
+        </header>
+        
+        <!-- AI Summary -->
+        <div class="bg-slate-800 p-6 rounded-xl shadow-lg mb-8 border border-slate-700">
+            <h2 class="text-2xl font-semibold mb-4 text-blue-400">🤖 AI Daily Brief</h2>
+            <p class="text-lg leading-relaxed">AI Summary unavailable (Missing API Key).</p>
+        </div>
+
+        <!-- Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            
+            <div class="bg-slate-800 p-6 rounded-xl shadow-lg border-t-4 border-blue-500 hover:scale-105 transition-transform">
+                <div class="flex justify-between items-start">
+                    <h3 class="text-xl font-bold">New York</h3>
+                    <span class="text-3xl">☁️</span>
+                </div>
+                <div class="mt-4">
+                    <p class="text-4xl font-bold">5.48°C</p>
+                    <p class="text-slate-400 capitalize">overcast clouds</p>
+                </div>
+                <div class="mt-4 text-sm text-slate-500">
+                    <p>💧 Humidity: 63%</p>
+                    <p>💨 Wind: 5.14 m/s</p>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 p-6 rounded-xl shadow-lg border-t-4 border-blue-500 hover:scale-105 transition-transform">
+                <div class="flex justify-between items-start">
+                    <h3 class="text-xl font-bold">London</h3>
+                    <span class="text-3xl">☁️</span>
+                </div>
+                <div class="mt-4">
+                    <p class="text-4xl font-bold">10.62°C</p>
+                    <p class="text-slate-400 capitalize">broken clouds</p>
+                </div>
+                <div class="mt-4 text-sm text-slate-500">
+                    <p>💧 Humidity: 84%</p>
+                    <p>💨 Wind: 6.17 m/s</p>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 p-6 rounded-xl shadow-lg border-t-4 border-blue-500 hover:scale-105 transition-transform">
+                <div class="flex justify-between items-start">
+                    <h3 class="text-xl font-bold">Tokyo</h3>
+                    <span class="text-3xl">☀️</span>
+                </div>
+                <div class="mt-4">
+                    <p class="text-4xl font-bold">6.19°C</p>
+                    <p class="text-slate-400 capitalize">clear sky</p>
+                </div>
+                <div class="mt-4 text-sm text-slate-500">
+                    <p>💧 Humidity: 56%</p>
+                    <p>💨 Wind: 2.57 m/s</p>
+                </div>
+            </div>
+            
+            <div class="bg-slate-800 p-6 rounded-xl shadow-lg border-t-4 border-blue-500 hover:scale-105 transition-transform">
+                <div class="flex justify-between items-start">
+                    <h3 class="text-xl font-bold">Sydney</h3>
+                    <span class="text-3xl">☀️</span>
+                </div>
+                <div class="mt-4">
+                    <p class="text-4xl font-bold">22.88°C</p>
+                    <p class="text-slate-400 capitalize">clear sky</p>
+                </div>
+                <div class="mt-4 text-sm text-slate-500">
+                    <p>💧 Humidity: 60%</p>
+                    <p>💨 Wind: 11.83 m/s</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Charts -->
+        <div class="bg-white p-4 rounded-xl shadow-lg">
+            <h2 class="text-2xl font-semibold mb-4 text-slate-900">📈 Temperature Trends</h2>
+            <img src="./data/charts/temp_trend.png" alt="Temperature Trend" class="w-full rounded-lg">
+        </div>
+    </div>
+</body>
+</html>
