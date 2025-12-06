@@ -45,15 +45,22 @@ def update_history():
                 "icon": data["weather"][0]["icon"]
             }
             data_list.append(row)
+            print(f"✅ Got data for {city_name}")
+        else:
+            print(f"❌ Failed to get data for {city_name}")
     
+    # --- FIX STARTS HERE ---
+    if not data_list:
+        print("⚠️ No data collected. Skipping CSV save to prevent errors.")
+        return
+    # --- FIX ENDS HERE ---
+
     # Save to CSV
     df = pd.DataFrame(data_list)
     
     if os.path.exists(CSV_PATH):
-        # Append without writing header
         df.to_csv(CSV_PATH, mode='a', header=False, index=False)
     else:
-        # Create new with header
         os.makedirs("data", exist_ok=True)
         df.to_csv(CSV_PATH, mode='w', header=True, index=False)
         
