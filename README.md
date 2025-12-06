@@ -3,7 +3,7 @@
 **Status:** ⏳ Initializing...
 
 This repository is an automated data engineering project that:
-1.  **Fetches weather data** every 30 minutes for multiple cities.
+1.  **Fetches weather data** every 1 hour for multiple cities.
 2.  **Logs history** to CSV for analysis.
 3.  **Generates visualizations** (charts/graphs) automatically.
 4.  **Updates this README** with real-time dashboards and AI summaries.
