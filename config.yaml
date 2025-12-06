@@ -1,0 +1,21 @@
+weather_api:
+  provider: "openweathermap" # or weatherapi
+  units: "metric"
+
+cities:
+  - name: "New York"
+    country: "US"
+    flag: "🇺🇸"
+  - name: "London"
+    country: "GB"
+    flag: "🇬🇧"
+  - name: "Tokyo"
+    country: "JP"
+    flag: "🇯🇵"
+  - name: "Sydney"
+    country: "AU"
+    flag: "🇦🇺"
+
+settings:
+  chart_theme: "dark"
+  streak_threshold: 3
