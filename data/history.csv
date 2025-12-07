@@ -47,3 +47,7 @@ date,timestamp,city,temp,humidity,wind_speed,condition,description,icon
 2025-12-07,2025-12-07 08:16:01,London,10.09,94,2.57,Rain,light rain,10d
 2025-12-07,2025-12-07 08:16:01,Tokyo,12.85,47,0.51,Clear,clear sky,01n
 2025-12-07,2025-12-07 08:16:01,Sydney,19.05,67,7.72,Clouds,overcast clouds,04d
+2025-12-07,2025-12-07 09:12:33,New York,0.9,74,3.09,Clear,clear sky,01n
+2025-12-07,2025-12-07 09:12:33,London,10.52,95,3.09,Rain,light rain,10d
+2025-12-07,2025-12-07 09:12:33,Tokyo,11.59,48,2.57,Clear,clear sky,01n
+2025-12-07,2025-12-07 09:12:33,Sydney,19.02,67,5.66,Clouds,overcast clouds,04n
