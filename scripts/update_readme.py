@@ -1,5 +1,4 @@
 import pandas as pd
-import yaml
 from datetime import datetime
 
 # Function to generate a text-based progress bar
@@ -26,34 +25,36 @@ def update_readme():
     # 2. GENERATE BADGES
     badges_md = ""
     for _, row in latest_df.iterrows():
-        # Color logic: Hot=Red, Comfy=Green, Cold=Blue
+        # Color logic
         color = "red" if row['temp'] > 30 else "orange" if row['temp'] > 25 else "green" if row['temp'] > 15 else "blue"
-        badges_md += f"![{row['city']}](https://img.shields.io/badge/{row['city']}-{row['temp']}°C-{color}) "
+        
+        # FIX: Encode spaces in city names for URLs (New York -> New%20York)
+        city_url_name = row['city'].replace(" ", "%20")
+        
+        badges_md += f"![{row['city']}](https://img.shields.io/badge/{city_url_name}-{row['temp']}°C-{color}) "
 
-    # 3. GENERATE TABLE WITH INSIGHTS
+    # 3. GENERATE TABLE
     table_md = "| 🌍 City | 🌡️ Temp | 🌤️ Condition | 💧 Humidity | 🌬️ Wind |\n|---|---|---|---|---|\n"
     
     for _, row in latest_df.iterrows():
-        # Add a visual humidity bar
         humidity_bar = create_progress_bar(row['humidity'], 100, 5)
         table_md += f"| **{row['city']}** | {row['temp']}°C | {row['description']} | {humidity_bar} {row['humidity']}% | {row['wind_speed']} m/s |\n"
 
     # 4. AI/STATS SUMMARY SECTION
-    stats_md = f"""
-    <div align="center">
-      <h3>🏆 Weather Records (Live)</h3>
-      <table>
-        <tr>
-            <td align="center">🔥 <b>Hottest City</b></td>
-            <td align="center">❄️ <b>Coldest City</b></td>
-        </tr>
-        <tr>
-            <td align="center"><b>{hottest_row['city']}</b><br>{hottest_row['temp']}°C</td>
-            <td align="center"><b>{coldest_row['city']}</b><br>{coldest_row['temp']}°C</td>
-        </tr>
-      </table>
-    </div>
-    """
+    # FIX: No indentation here, otherwise Markdown treats it as a code block
+    stats_md = f"""<div align="center">
+  <h3>🏆 Weather Records (Live)</h3>
+  <table>
+    <tr>
+        <td align="center">🔥 <b>Hottest City</b></td>
+        <td align="center">❄️ <b>Coldest City</b></td>
+    </tr>
+    <tr>
+        <td align="center"><b>{hottest_row['city']}</b><br>{hottest_row['temp']}°C</td>
+        <td align="center"><b>{coldest_row['city']}</b><br>{coldest_row['temp']}°C</td>
+    </tr>
+  </table>
+</div>"""
 
     # 5. COMPILE FINAL README
     date_now = datetime.now().strftime("%Y-%m-%d %H:%M UTC")
