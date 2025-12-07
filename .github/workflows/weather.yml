@@ -45,8 +45,8 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config --global user.name "WeatherBot"
-          git config --global user.email "bot@github.com"
+          git config --global user.name "AtheequeFurkhan"
+          git config --global user.email "atheequemf2003@gmail.com"
           git add .
           git commit -m "🌦️ Weather update: $(date +'%Y-%m-%d %H:%M')" || exit 0
           git push
