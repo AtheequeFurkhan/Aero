@@ -6,8 +6,8 @@
 [![Weather Update](https://github.com/USERNAME/REPO_NAME/actions/workflows/weather.yml/badge.svg)](https://github.com/USERNAME/REPO_NAME/actions/workflows/weather.yml)
 [👉 **View Full Dashboard**](https://USERNAME.github.io/REPO_NAME/)
 
-## ⚡ Current Status (2025-12-07 04:27)
-![Tokyo](https://img.shields.io/badge/Tokyo-14.18°C-green) ![Streak](https://img.shields.io/badge/Tokyo-Sunny_Streak_🔥-orange) ![New York](https://img.shields.io/badge/New York-1.88°C-blue) ![Streak](https://img.shields.io/badge/New York-Sunny_Streak_🔥-orange) ![London](https://img.shields.io/badge/London-8.18°C-blue) ![Sydney](https://img.shields.io/badge/Sydney-21.23°C-green) 
+## ⚡ Current Status (2025-12-07 05:12)
+![Tokyo](https://img.shields.io/badge/Tokyo-14.84°C-green) ![Streak](https://img.shields.io/badge/Tokyo-Sunny_Streak_🔥-orange) ![New York](https://img.shields.io/badge/New York-1.53°C-blue) ![Streak](https://img.shields.io/badge/New York-Sunny_Streak_🔥-orange) ![London](https://img.shields.io/badge/London-8.3°C-blue) ![Sydney](https://img.shields.io/badge/Sydney-19.94°C-green) 
 
 ## 🤖 AI Daily Summary
 _AI Summary unavailable (Missing API Key)._
@@ -15,10 +15,10 @@ _AI Summary unavailable (Missing API Key)._
 ## 📊 Weather Snapshot
 | City | Temp | Condition | Humidity | Wind |
 |---|---|---|---|---|
-| Tokyo | 14.18°C | clear sky | 44% | 2.06 m/s |
-| New York | 1.88°C | clear sky | 70% | 3.09 m/s |
-| London | 8.18°C | overcast clouds | 91% | 1.54 m/s |
-| Sydney | 21.23°C | broken clouds | 62% | 7.2 m/s |
+| Tokyo | 14.84°C | clear sky | 42% | 2.57 m/s |
+| New York | 1.53°C | clear sky | 71% | 3.6 m/s |
+| London | 8.3°C | overcast clouds | 92% | 0.89 m/s |
+| Sydney | 19.94°C | broken clouds | 66% | 7.72 m/s |
 
 
 ## 📈 Trends
