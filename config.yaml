@@ -1,20 +1,51 @@
 weather_api:
-  provider: "openweathermap" # or weatherapi
+  provider: "openweathermap"
   units: "metric"
 
 cities:
-  - name: "New York"
-    country: "US"
-    flag: "🇺🇸"
-  - name: "London"
-    country: "GB"
-    flag: "🇬🇧"
+  # 🇱🇰 Sri Lanka
+  - name: "Colombo"
+    country: "LK"
+    flag: "🇱🇰"
+  - name: "Kandy"
+    country: "LK"
+    flag: "🇱🇰"
+  - name: "Nuwara Eliya"
+    country: "LK"
+    flag: "🇱🇰"
+  - name: "Galle"
+    country: "LK"
+    flag: "🇱🇰"
+
+  # 🌏 Asia / Pacific
   - name: "Tokyo"
     country: "JP"
     flag: "🇯🇵"
+  - name: "Dubai"
+    country: "AE"
+    flag: "🇦🇪"
+  - name: "Singapore"
+    country: "SG"
+    flag: "🇸🇬"
   - name: "Sydney"
     country: "AU"
     flag: "🇦🇺"
+
+  # 🇪🇺 Europe
+  - name: "London"
+    country: "GB"
+    flag: "🇬🇧"
+  - name: "Paris"
+    country: "FR"
+    flag: "🇫🇷"
+
+  # 🇺🇸 Americas
+  - name: "New York"
+    country: "US"
+    flag: "🇺🇸"
+  - name: "Los Angeles"
+    country: "US"
+    flag: "🇺🇸"
 
 settings:
   chart_theme: "dark"
