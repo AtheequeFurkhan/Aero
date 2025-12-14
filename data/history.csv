@@ -2019,3 +2019,15 @@ date,timestamp,city,temp,humidity,wind_speed,condition,description,icon
 2025-12-14,2025-12-14 16:15:10,Paris,6.63,96,5.14,Fog,fog,50n
 2025-12-14,2025-12-14 16:15:10,New York,-1.92,91,8.23,Snow,light snow,13d
 2025-12-14,2025-12-14 16:15:10,Los Angeles,13.63,92,2.06,Mist,mist,50d
+2025-12-14,2025-12-14 17:11:18,Colombo,25.58,80,8.35,Clear,clear sky,01n
+2025-12-14,2025-12-14 17:11:18,Kandy,19.25,100,2.15,Clouds,scattered clouds,03n
+2025-12-14,2025-12-14 17:11:18,Nuwara Eliya,11.86,92,1.95,Clouds,broken clouds,04n
+2025-12-14,2025-12-14 17:11:18,Galle,25.75,81,1.86,Clear,clear sky,01n
+2025-12-14,2025-12-14 17:11:18,Tokyo,6.24,86,4.12,Clear,clear sky,01n
+2025-12-14,2025-12-14 17:11:18,Dubai,22.96,68,2.57,Clear,clear sky,01n
+2025-12-14,2025-12-14 17:11:18,Singapore,25.15,94,3.09,Clouds,scattered clouds,03n
+2025-12-14,2025-12-14 17:11:18,Sydney,19.46,74,6.69,Clouds,overcast clouds,04n
+2025-12-14,2025-12-14 17:11:18,London,9.55,83,4.12,Clouds,scattered clouds,03n
+2025-12-14,2025-12-14 17:11:18,Paris,6.59,97,4.63,Fog,fog,50n
+2025-12-14,2025-12-14 17:11:18,New York,-2.66,87,9.77,Haze,haze,50d
+2025-12-14,2025-12-14 17:11:18,Los Angeles,14.61,86,2.57,Haze,haze,50d
