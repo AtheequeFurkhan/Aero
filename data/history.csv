@@ -5799,3 +5799,15 @@ date,timestamp,city,temp,humidity,wind_speed,condition,description,icon
 2025-12-28,2025-12-28 20:15:01,Paris,0.08,91,2.57,Clear,clear sky,01n
 2025-12-28,2025-12-28 20:15:01,New York,-0.1,79,3.09,Haze,haze,50d
 2025-12-28,2025-12-28 20:15:01,Los Angeles,18.95,45,3.09,Clear,clear sky,01d
+2025-12-28,2025-12-28 21:12:07,Colombo,26.13,80,5.01,Clouds,overcast clouds,04n
+2025-12-28,2025-12-28 21:12:07,Kandy,19.31,98,1.81,Clouds,overcast clouds,04n
+2025-12-28,2025-12-28 21:12:07,Nuwara Eliya,10.88,95,1.13,Clouds,overcast clouds,04n
+2025-12-28,2025-12-28 21:12:07,Galle,25.33,82,2.41,Clouds,overcast clouds,04n
+2025-12-28,2025-12-28 21:12:07,Tokyo,4.68,65,3.18,Clouds,broken clouds,04n
+2025-12-28,2025-12-28 21:12:07,Dubai,22.96,64,3.6,Clear,clear sky,01n
+2025-12-28,2025-12-28 21:12:07,Singapore,25.15,90,4.63,Clouds,broken clouds,04n
+2025-12-28,2025-12-28 21:12:07,Sydney,17.17,66,2.51,Clouds,few clouds,02d
+2025-12-28,2025-12-28 21:12:07,London,6.17,79,3.09,Clouds,broken clouds,04n
+2025-12-28,2025-12-28 21:12:07,Paris,0.66,92,3.6,Mist,mist,50n
+2025-12-28,2025-12-28 21:12:07,New York,0.2,82,4.63,Haze,haze,50d
+2025-12-28,2025-12-28 21:12:07,Los Angeles,19.85,43,4.12,Clear,clear sky,01d
