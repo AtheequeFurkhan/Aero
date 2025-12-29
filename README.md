@@ -8,8 +8,8 @@
 
 ---
 
-## ⚡ Live Status (Updated: 2025-12-29 04:42 UTC)
-![Paris](https://img.shields.io/badge/Paris--1.25°C-blue) ![London](https://img.shields.io/badge/London-4.86°C-blue) ![Sydney](https://img.shields.io/badge/Sydney-22.56°C-green) ![Singapore](https://img.shields.io/badge/Singapore-28.93°C-orange) ![Dubai](https://img.shields.io/badge/Dubai-22.96°C-green) ![Galle](https://img.shields.io/badge/Galle-29.96°C-orange) ![Nuwara Eliya](https://img.shields.io/badge/Nuwara%20Eliya-17.78°C-green) ![Kandy](https://img.shields.io/badge/Kandy-26.59°C-orange) ![Colombo](https://img.shields.io/badge/Colombo-29.46°C-orange) ![New York](https://img.shields.io/badge/New%20York-2.72°C-blue) ![Tokyo](https://img.shields.io/badge/Tokyo-11.75°C-blue) ![Los Angeles](https://img.shields.io/badge/Los%20Angeles-13.0°C-blue) 
+## ⚡ Live Status (Updated: 2025-12-29 05:23 UTC)
+![Paris](https://img.shields.io/badge/Paris--0.96°C-blue) ![London](https://img.shields.io/badge/London-4.73°C-blue) ![Sydney](https://img.shields.io/badge/Sydney-22.14°C-green) ![Singapore](https://img.shields.io/badge/Singapore-29.61°C-orange) ![Dubai](https://img.shields.io/badge/Dubai-22.96°C-green) ![Galle](https://img.shields.io/badge/Galle-30.52°C-red) ![Nuwara Eliya](https://img.shields.io/badge/Nuwara%20Eliya-17.78°C-green) ![Kandy](https://img.shields.io/badge/Kandy-26.59°C-orange) ![Colombo](https://img.shields.io/badge/Colombo-30.02°C-red) ![New York](https://img.shields.io/badge/New%20York-2.92°C-blue) ![Tokyo](https://img.shields.io/badge/Tokyo-12.55°C-blue) ![Los Angeles](https://img.shields.io/badge/Los%20Angeles-13.77°C-blue) 
 
 <div align="center">
   <h3>🏆 Weather Records (Live)</h3>
@@ -19,8 +19,8 @@
         <td align="center">❄️ <b>Coldest City</b></td>
     </tr>
     <tr>
-        <td align="center"><b>Galle</b><br>29.96°C</td>
-        <td align="center"><b>Paris</b><br>-1.25°C</td>
+        <td align="center"><b>Galle</b><br>30.52°C</td>
+        <td align="center"><b>Paris</b><br>-0.96°C</td>
     </tr>
   </table>
 </div>
@@ -28,18 +28,18 @@
 ## 📊 Global Overview
 | 🌍 City | 🌡️ Temp | 🌤️ Condition | 💧 Humidity | 🌬️ Wind |
 |---|---|---|---|---|
-| **Paris** | -1.25°C | clear sky | 🟦🟦🟦🟦⬜ 93% | 4.12 m/s |
-| **London** | 4.86°C | overcast clouds | 🟦🟦🟦🟦⬜ 80% | 5.14 m/s |
-| **Sydney** | 22.56°C | few clouds | 🟦🟦⬜⬜⬜ 51% | 6.69 m/s |
-| **Singapore** | 28.93°C | scattered clouds | 🟦🟦🟦⬜⬜ 78% | 4.63 m/s |
-| **Dubai** | 22.96°C | clear sky | 🟦🟦🟦⬜⬜ 73% | 6.17 m/s |
-| **Galle** | 29.96°C | broken clouds | 🟦🟦🟦⬜⬜ 76% | 0.26 m/s |
+| **Paris** | -0.96°C | clear sky | 🟦🟦🟦🟦⬜ 89% | 3.09 m/s |
+| **London** | 4.73°C | overcast clouds | 🟦🟦🟦🟦⬜ 81% | 4.63 m/s |
+| **Sydney** | 22.14°C | clear sky | 🟦🟦⬜⬜⬜ 52% | 5.66 m/s |
+| **Singapore** | 29.61°C | scattered clouds | 🟦🟦🟦⬜⬜ 72% | 6.17 m/s |
+| **Dubai** | 22.96°C | clear sky | 🟦🟦🟦⬜⬜ 73% | 5.66 m/s |
+| **Galle** | 30.52°C | broken clouds | 🟦🟦🟦⬜⬜ 74% | 0.26 m/s |
 | **Nuwara Eliya** | 17.78°C | overcast clouds | 🟦🟦🟦⬜⬜ 67% | 1.94 m/s |
 | **Kandy** | 26.59°C | overcast clouds | 🟦🟦🟦⬜⬜ 67% | 1.77 m/s |
-| **Colombo** | 29.46°C | broken clouds | 🟦🟦🟦⬜⬜ 68% | 3.4 m/s |
-| **New York** | 2.72°C | overcast clouds | 🟦🟦🟦🟦⬜ 93% | 1.54 m/s |
-| **Tokyo** | 11.75°C | few clouds | 🟦🟦⬜⬜⬜ 52% | 1.54 m/s |
-| **Los Angeles** | 13.0°C | clear sky | 🟦🟦🟦⬜⬜ 63% | 2.06 m/s |
+| **Colombo** | 30.02°C | broken clouds | 🟦🟦🟦⬜⬜ 65% | 3.4 m/s |
+| **New York** | 2.92°C | overcast clouds | 🟦🟦🟦🟦⬜ 93% | 1.79 m/s |
+| **Tokyo** | 12.55°C | clear sky | 🟦🟦⬜⬜⬜ 51% | 2.83 m/s |
+| **Los Angeles** | 13.77°C | clear sky | 🟦🟦⬜⬜⬜ 50% | 2.06 m/s |
 
 
 ## 📈 Temperature Trends
