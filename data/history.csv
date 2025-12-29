@@ -6051,3 +6051,15 @@ date,timestamp,city,temp,humidity,wind_speed,condition,description,icon
 2025-12-29,2025-12-29 19:11:04,Paris,1.56,85,6.69,Clouds,overcast clouds,04n
 2025-12-29,2025-12-29 19:11:04,New York,6.78,96,4.63,Clouds,overcast clouds,04d
 2025-12-29,2025-12-29 19:11:04,Los Angeles,20.32,29,3.09,Clear,clear sky,01d
+2025-12-29,2025-12-29 20:15:44,Colombo,26.13,78,6.55,Clouds,scattered clouds,03n
+2025-12-29,2025-12-29 20:15:44,Kandy,19.92,99,1.71,Clouds,scattered clouds,03n
+2025-12-29,2025-12-29 20:15:44,Nuwara Eliya,12.65,97,1.22,Clouds,overcast clouds,04n
+2025-12-29,2025-12-29 20:15:44,Galle,25.94,80,1.75,Clouds,broken clouds,04n
+2025-12-29,2025-12-29 20:15:44,Tokyo,5.64,72,0.51,Clear,clear sky,01n
+2025-12-29,2025-12-29 20:15:44,Dubai,23.96,50,6.69,Clouds,scattered clouds,03n
+2025-12-29,2025-12-29 20:15:44,Singapore,26.0,85,4.12,Clouds,broken clouds,04n
+2025-12-29,2025-12-29 20:15:44,Sydney,14.75,71,3.09,Clouds,few clouds,02d
+2025-12-29,2025-12-29 20:15:44,London,6.42,77,2.24,Clouds,overcast clouds,04n
+2025-12-29,2025-12-29 20:15:44,Paris,2.03,84,6.69,Clouds,overcast clouds,04n
+2025-12-29,2025-12-29 20:15:44,New York,7.49,79,6.17,Drizzle,light intensity drizzle,09d
+2025-12-29,2025-12-29 20:15:44,Los Angeles,21.92,25,2.06,Clear,clear sky,01d
