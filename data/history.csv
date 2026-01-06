@@ -8187,3 +8187,15 @@ date,timestamp,city,temp,humidity,wind_speed,condition,description,icon
 2026-01-06,2026-01-06 22:14:04,Paris,-1.46,94,5.66,Mist,mist,50n
 2026-01-06,2026-01-06 22:14:04,New York,3.81,78,4.63,Clouds,overcast clouds,04n
 2026-01-06,2026-01-06 22:14:04,Los Angeles,18.58,62,2.57,Clouds,broken clouds,04d
+2026-01-06,2026-01-06 23:13:35,Colombo,25.02,76,10.11,Clouds,broken clouds,04n
+2026-01-06,2026-01-06 23:13:35,Kandy,17.89,99,2.4,Clouds,broken clouds,04n
+2026-01-06,2026-01-06 23:13:35,Nuwara Eliya,9.95,97,2.55,Clouds,overcast clouds,04n
+2026-01-06,2026-01-06 23:13:35,Galle,24.13,90,1.39,Clouds,overcast clouds,04n
+2026-01-06,2026-01-06 23:13:35,Tokyo,2.66,74,5.14,Clouds,broken clouds,04d
+2026-01-06,2026-01-06 23:13:35,Dubai,20.96,49,0.51,Clear,clear sky,01n
+2026-01-06,2026-01-06 23:13:35,Singapore,25.15,95,1.54,Clouds,broken clouds,04d
+2026-01-06,2026-01-06 23:13:35,Sydney,27.36,66,4.12,Clouds,few clouds,02d
+2026-01-06,2026-01-06 23:13:35,London,4.49,86,6.17,Clouds,scattered clouds,03n
+2026-01-06,2026-01-06 23:13:35,Paris,-1.53,95,5.66,Mist,mist,50n
+2026-01-06,2026-01-06 23:13:35,New York,4.04,81,5.14,Clouds,overcast clouds,04n
+2026-01-06,2026-01-06 23:13:35,Los Angeles,18.25,64,3.09,Clouds,broken clouds,04d
