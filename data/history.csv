@@ -10503,3 +10503,15 @@ date,timestamp,city,temp,humidity,wind_speed,condition,description,icon
 2026-01-15,2026-01-15 17:26:11,Paris,11.97,72,5.14,Clouds,overcast clouds,04n
 2026-01-15,2026-01-15 17:26:11,New York,3.29,46,9.77,Clear,clear sky,01d
 2026-01-15,2026-01-15 17:26:11,Los Angeles,20.08,38,4.12,Smoke,smoke,50d
+2026-01-15,2026-01-15 18:26:24,Colombo,25.58,90,4.29,Clear,clear sky,01n
+2026-01-15,2026-01-15 18:26:24,Kandy,17.33,97,2.38,Clouds,few clouds,02n
+2026-01-15,2026-01-15 18:26:24,Nuwara Eliya,8.71,68,1.2,Clear,clear sky,01n
+2026-01-15,2026-01-15 18:26:24,Galle,24.94,82,1.61,Clouds,few clouds,02n
+2026-01-15,2026-01-15 18:26:24,Tokyo,9.49,58,6.17,Clear,clear sky,01n
+2026-01-15,2026-01-15 18:26:24,Dubai,22.96,56,8.23,Clouds,few clouds,02n
+2026-01-15,2026-01-15 18:26:24,Singapore,25.15,85,4.63,Clouds,broken clouds,04n
+2026-01-15,2026-01-15 18:26:24,Sydney,19.75,85,0.89,Rain,light rain,10n
+2026-01-15,2026-01-15 18:26:24,London,9.46,90,6.17,Rain,moderate rain,10n
+2026-01-15,2026-01-15 18:26:24,Paris,11.88,75,7.2,Clouds,broken clouds,04n
+2026-01-15,2026-01-15 18:26:24,New York,3.16,44,9.77,Clear,clear sky,01d
+2026-01-15,2026-01-15 18:26:24,Los Angeles,23.57,29,4.12,Clear,clear sky,01d
